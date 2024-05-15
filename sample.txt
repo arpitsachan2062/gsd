@@ -1,0 +1,1 @@
+This is to confirm that the git is connected and the review is created with a new commit 
