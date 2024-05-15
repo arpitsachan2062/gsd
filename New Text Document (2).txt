@@ -1,1 +1,49 @@
-wecdsca
+
+arpit.sachan@SB-IN-6WS4BK3 MINGW64 ~/Desktop
+$ git init
+Initialized empty Git repository in C:/Users/arpit.sachan/Desktop/.git/
+
+arpit.sachan@SB-IN-6WS4BK3 MINGW64 ~/Desktop (master)
+$ git clone https://github.com/arpitsachan2062/gsd.git
+Cloning into 'gsd'...
+remote: Enumerating objects: 135, done.
+remote: Counting objects: 100% (69/69), done.
+remote: Compressing objects: 100% (37/37), done.
+remote: Total 135 (delta 39), reused 40 (delta 29), pack-reused 66
+Receiving objects: 100% (135/135), 312.72 KiB | 2.50 MiB/s, done.
+Resolving deltas: 100% (52/52), done.
+
+arpit.sachan@SB-IN-6WS4BK3 MINGW64 ~/Desktop (master)
+$ cd gsd
+
+arpit.sachan@SB-IN-6WS4BK3 MINGW64 ~/Desktop/gsd (main)
+$ git add .
+
+arpit.sachan@SB-IN-6WS4BK3 MINGW64 ~/Desktop/gsd (main)
+$ git commit -m "ok"
+[main ff15bc3] ok
+ 1 file changed, 1 insertion(+)
+ create mode 100644 New Text Document (2).txt
+
+arpit.sachan@SB-IN-6WS4BK3 MINGW64 ~/Desktop/gsd (main)
+$ git remote add origin https://github.com/arpitsachan2062/gsd.git
+error: remote origin already exists.
+
+arpit.sachan@SB-IN-6WS4BK3 MINGW64 ~/Desktop/gsd (main)
+$ git push -u origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 268 bytes | 268.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/arpitsachan2062/gsd.git
+   1640004..ff15bc3  main -> main
+branch 'main' set up to track 'origin/main'.
+
+arpit.sachan@SB-IN-6WS4BK3 MINGW64 ~/Desktop/gsd (main)
+$ ^C
+
+arpit.sachan@SB-IN-6WS4BK3 MINGW64 ~/Desktop/gsd (main)
+$
